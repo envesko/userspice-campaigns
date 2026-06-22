@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>Email Campaigns</name>
+  <author>Envesko</author>
+  <website>https://github.com/envesko/userspice-campaigns</website>
+  <version>1.0.0</version>
+  <release>June 21, 2026</release>
+  <tested>6.1.0</tested>
+  <fa_icon>fa fa-envelope</fa_icon>
+  <description>Send segmented email campaigns to your users with per-recipient tracking and one-click unsubscribe suppression. Segments are built from safe, whitelisted criteria (permission level, join date, active status, has-logged-in) - never raw SQL. Uses UserSpice's core mailer, so it automatically respects whatever transport you have configured (PHPMailer/SMTP, Brevo, SendGrid, etc.). Integrates with the Cron Heartbeat plugin for background batch sending.</description>
+  <button>Email Campaigns</button>
+</plugin>
